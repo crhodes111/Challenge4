@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 4 Coding Quiz</title>
+    
+</head>
+<body>
+<!--Timer-->
+    <p id="countdown">100</p>
+    <!--Starting Quiz Container-->
+    <div class="start-quiz" id="start-quiz-container">
+        <h2>Coding Quiz</h2>
+        <p class="start-quiz">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score</p>
+        <button class="start-quiz" id="start-quiz">Start Quiz</button>
+    </div>
+    <!--Question 1 Container-->
+    <div class="question1" id="question1Container">
+        <p class="question1" id="question1p"> Commonly used data types DO NOT include: </p>
+        <button class="question1" id="button1q1">Strings</button>
+        <button class="question1" id="button2q1">Booleans</button>
+        <button class="question1" id="button3q1">Alerts</button>
+        <button class="question1" id="button4q1">Numbers</button>
+    </div>
+    <!--Question 2 Container-->
+    <div class="question2" id="question2Container">
+        <p class="question2" id="question2p">The condition in an if/else statement is enclosed with:</p>
+        <button class="question2" id="button1q2">Quotes</button>
+        <button class="question2" id="button2q2">Curly Braces</button>
+        <button class="question2" id="button3q2">Parentheses</button>
+        <button class="question2" id="button4q2">Square Brackets</button>
+    </div>
+    <!--Question 3 Container-->
+    <div class="question3" id="question3Container">
+        <p class="question3" id="question3p">Arrays in JavaScript can be used to store:</p>
+        <button class="question3" id="button1q3">Numbers and Strings</button>
+        <button class="question3" id="button2q3">Other Arrays</button>
+        <button class="question3" id="button3q3">Booleans</button>
+        <button class="question3" id="button4q3">All of the above</button>
+    </div>
+    <!--Question 4 Container-->
+    <div class="question4" id="question4Container">
+        <p class="question4" id="question4p">String values must be enclosed within _____ when being assigned to variables:</p>
+        <button class="question4" id="button1q4">Commas</button>
+        <button class="question4" id="button2q4">Curly Braces</button>
+        <button class="question4" id="button3q4">Quotes</button>
+        <button class="question4" id="button4q4">Parentheses</button>
+    </div> 
+        <!--Question 5 Container-->
+    <div class="question5" id="question5Container">
+        <p class="question5" id="question5p">A very useful tool used during development and debugging for printing content to the debugger is:</p>
+        <button class="question5" id="button1q5">JavaScript</button>
+        <button class="question5" id="button2q5">terminal/bash</button>
+        <button class="question5" id="button3q5">for loops</button>
+        <button class="question5" id="button4q5">console.log</button>
+    </div>  
+    <!--Game Over Screen-->
+    <div class="game-over" id="game-over-container">
+        <h3>Game Over</h3>
+        <p></p>
+        <div>
+            <label for="initials">Enter your initials to log your highscore</label>
+            <input id="initials" type="text">
+            <button class="game-over" id="logHighscore" >Log Highscore</button>
+            
+        </div>
+    </div>
+    <!--Highscores-->
+    <div class="highscores" id="highscoreContainer">
+        <h3>Highscore Leaderboard</h3>
+        <ul class="highscores" id="highscore-leaderboard">
+            
+        </ul>
+        <button id="clearHighscore">Clear Highscore</button>
+        <button id="retry">Retry</button>
+    </div>
+    <!--Timer/Score CSS Relative or Flexbox-->
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
